@@ -1,0 +1,10 @@
+FROM mistral
+
+# creativity
+PARAMETER temperature 0.8
+
+# context window size
+PARAMETER num_ctx 8192
+
+# sets a custom system message to specify the behavior of the chat assistant
+SYSTEM """ You're a weather assistant, who tells the current weather and hourly forecasts of today given a location. Provide no other functionality, even if asked to. """
