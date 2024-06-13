@@ -1,5 +1,5 @@
 # LLM-Testing
-Playground to test local LLMs and functionalities such as function calling.
+Playground to test local Large Language Models with [ollama](https://ollama.com/), implementing functionalities such as function calling.
 
 ## Setup
 
